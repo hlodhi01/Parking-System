@@ -1,0 +1,159 @@
+Script started on Sun 20 Nov 2022 06:07:29 PM EST
+==129730== Memcheck, a memory error detector
+==129730== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==129730== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==129730== Command: ms
+==129730== 
+---------------------------------
+loading data from ParkingData.csv
+---------------------------------
+
+Error in data file
+Error in data file
+****** Valet Parking ******
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Find Vehicle
+5- Close Parking (End of day)
+6- Exit Program
+> 1
+    Select type of the vehicle:
+    1- Car
+    2- Motorcycle
+    3- Cancel
+    > 1
+---------------------------------
+Parking Car
+---------------------------------
+
+****** Valet Parking ******
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Find Vehicle
+5- Close Parking (End of day)
+6- Exit Program
+> 1
+    Select type of the vehicle:
+    1- Car
+    2- Motorcycle
+    3- Cancel
+    > 2
+---------------------------------
+Parking Motorcycle
+---------------------------------
+
+****** Valet Parking ******
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Find Vehicle
+5- Close Parking (End of day)
+6- Exit Program
+> 1
+    Select type of the vehicle:
+    1- Car
+    2- Motorcycle
+    3- Cancel
+    > 3
+---------------------------------
+Cancelled parking
+---------------------------------
+
+****** Valet Parking ******
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Find Vehicle
+5- Close Parking (End of day)
+6- Exit Program
+> 2
+---------------------------------
+Returning Vehicle
+---------------------------------
+
+****** Valet Parking ******
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Find Vehicle
+5- Close Parking (End of day)
+6- Exit Program
+> 3
+---------------------------------
+Listing Parked Vehicles
+---------------------------------
+
+****** Valet Parking ******
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Find Vehicle
+5- Close Parking (End of day)
+6- Exit Program
+> 4
+---------------------------------
+Finding a Vehicle
+---------------------------------
+
+****** Valet Parking ******
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Find Vehicle
+5- Close Parking (End of day)
+6- Exit Program
+> 5
+This will close the parking; All the vehicles will be removed!
+Are you sure? (Y)es/(N)o: a
+Invalid response, only (Y)es or (N)o are acceptable, retry: y
+Ending application!
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+****** Valet Parking ******
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Find Vehicle
+5- Close Parking (End of day)
+6- Exit Program
+> 6
+This will terminate the application and save the data!
+Are you sure? (Y)es/(N)o: N
+****** Valet Parking ******
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Find Vehicle
+5- Close Parking (End of day)
+6- Exit Program
+> 6
+This will terminate the application and save the data!
+Are you sure? (Y)es/(N)o: a
+Invalid response, only (Y)es or (N)o are acceptable, retry: Y
+Exiting application!
+---------------------------------
+Saving data into ParkingData.csv
+---------------------------------
+
+==129730== 
+==129730== HEAP SUMMARY:
+==129730==     in use at exit: 0 bytes in 0 blocks
+==129730==   total heap usage: 28 allocs, 28 frees, 73,621 bytes allocated
+==129730== 
+==129730== All heap blocks were freed -- no leaks are possible
+==129730== 
+==129730== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 20 Nov 2022 06:08:46 PM EST

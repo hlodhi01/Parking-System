@@ -1,0 +1,7 @@
+/*  Name                : Harsh Lodhi
+    Seneca E-mail       : hlodhi1@myseneca.ca
+    Student ID          : 169677218
+    Date                : 12 november 2022
+ */
+
+This is the reflection part of MS1 and while completing this task I applied all the concepts that I learned till now such as Memory usage part and then using modern functions in class such as class heirchy and a lot more. 
